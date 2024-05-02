@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="css" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/web/css" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/css" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="file://$PROJECT_DIR$/web/css" />
+    </DOCUMENTATION>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

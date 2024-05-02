@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jquery" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/web/js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/js" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="file://$PROJECT_DIR$/web/js" />
+    </DOCUMENTATION>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.eland.pojo.model.UserInformationEntity" table="user_information" schema="dbo" catalog="testdb">
+        <id name="id" column="id">
+            <generator class="identity"></generator>
+<!--當資料表中有欄位使用識別功能(一般稱做自動增長的流水號)，需要在.hbm.xml檔案裡面設定為 generator class="identity" -->
+        </id>
+        <property name="account" column="account"/>
+        <property name="name" column="name"/>
+        <property name="age" column="age"/>
+        <property name="createTime" column="create_time"/>
+    </class>
+</hibernate-mapping>
